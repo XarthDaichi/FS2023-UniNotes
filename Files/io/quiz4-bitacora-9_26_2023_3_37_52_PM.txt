@@ -1,0 +1,379 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-3:37:52PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Color 2;
+Expr  -8*x+3*y=-160 ;
+Color 3;
+Expr x+y=31 ;
+Color 4;
+Expr  -3*x+17*y = 187 ;
+Color 5;
+Expr y=0 ;
+Color 6;
+Expr x=0 ;
+Color 2;
+Expr  -8*x+3*y=-160,x+y=31, -3*x+17*y > 187,y<0,x<0 ;
+Color 3;
+Expr  5*x+y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-3:50:46PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*y - 2*x = 14 ;
+Color 3;
+Expr x + 7*y = 35 ;
+Color 4;
+Expr y -x = -11 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  7*y - 2*x < 14,x + 7*y < 35,y -x > -11,x > 0,y > 0 ;
+Color 3;
+Expr  10*x+70*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:00:59PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Expr  c=slider([24,84]);
+ Expr  d=slider([19,66]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = 24 ;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < 24,y - 4*x > -28,x > 0,y > 0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:02:49PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 24,29]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > -28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:09:05PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 27,32]);
+Color 2;
+Expr  -10*x - 3*y = -140 ;
+Color 3;
+Expr x +y = K;
+Color 4;
+Expr  -3*x - 11*y = 143 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  -10*x - 3*y > -140,x +y < K,-3*x - 11*y < 143,x > 0,y > 0 ;
+Color 3;
+Expr  4*x+3*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:09:56PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 27,100]);
+Color 2;
+Expr  -10*x - 3*y = -140 ;
+Color 3;
+Expr x +y = K;
+Color 4;
+Expr  -3*x - 11*y = 143 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  -10*x - 3*y > -140,x +y < K,-3*x - 11*y < 143,x > 0,y > 0 ;
+Color 3;
+Expr  4*x+3*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:13:18PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 24,50]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = 28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > 28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:13:42PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 24,29]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = 28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > 28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:15:19PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Expr  c=slider([24,84]);
+ Expr  d=slider([19,66]);
+Expr  K=slider([ 24,29]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = 28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > 28,x > 0,y > 0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:15:45PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = 24 ;
+Color 4;
+Expr y - 4*x = 28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < 24,y - 4*x > 28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:17:25PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  c=slider([24,84]);
+Expr  d=slider([19,66]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = 24 ;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < 24,y - 4*x > -28,x > 0,y > 0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:18:03PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 24,50]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > -28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:19:27PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([0,50]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = K;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < K,y - 4*x > -28,x > 0,y > 0 ;
+Color 3;
+Expr  24*x+19*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:21:01PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  c=slider([24,100]);
+Expr  d=slider([19,66]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = 24 ;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < 24,y - 4*x > -28,x > 0,y > 0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/26/2023-4:21:17PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  c=slider([24,160]);
+Expr  d=slider([19,66]);
+Color 2;
+Expr  2*y -x = 6 ;
+Color 3;
+Expr x + 4*y = 24 ;
+Color 4;
+Expr y - 4*x = -28 ;
+Color 5;
+Expr x = 0 ;
+Color 6;
+Expr y = 0 ;
+Color 2;
+Expr  2*y -x < 6,x + 4*y < 24,y - 4*x > -28,x > 0,y > 0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;

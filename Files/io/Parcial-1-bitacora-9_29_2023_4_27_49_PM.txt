@@ -1,0 +1,38 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:27:49PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*y-2*x<14,x+7*y<35,y-x > -11,x>0,y>0 ;
+Color 3;
+Expr  10*x+70*y = n;
+SliderSteps 50;
+Slider 0 350;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:28:19PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*y-2*x=14 ;
+Color 3;
+Expr x+7*y=35 ;
+Color 4;
+Expr y-x = -11 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr  7*y-2*x<14,x+7*y<35,y-x > -11,x>0,y>0 ;
+Color 3;
+Expr  10*x+70*y = n;
+SliderSteps 50;
+Slider 0 350;
+SliderOneDirection 0;
+SliderMoving 0;
+

@@ -1,0 +1,24 @@
+const x = y;
+
+const x = 1;
+
+const x;
+
+const x
+    = 1
+
+;
+
+const x
+    = 1
+
+        const x
+  = 1
+
+let y;
+
+const test = x;
+
+const test2 = 666;
+
+const luis = [23, test, [1]];

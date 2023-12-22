@@ -1,0 +1,104 @@
+% !TEX program = xelatex
+
+\documentclass[11pt, article, natbib]{article}
+% \IEEEoverridecommandlockouts
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage[backend=biber, style=apa]{biblatex}
+\usepackage{amsmath, amsthm, amsfonts}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{titling}
+\usepackage{blindtext}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\addbibresource{ref.bib}
+
+\pagestyle{fancy}
+\fancyhf{\scriptsize Universidad Nacional de Costa Rica}
+\rhead{\thepage}
+\lhead{\scriptsize Articulo}
+\rfoot{\scriptsize EIF-412 IO}
+\lfoot{\scriptsize II-2023}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
+\makeatother
+
+
+\begin{document}
+
+\begin{titlepage}
+	\includegraphics[width=0.2\textwidth]{../../logo-UNA blanco.png}
+   	\begin{changemargin}{4.5cm}{0cm}
+       	\textbf{\huge Articulo}
+
+       	\vspace{0.2cm}
+       	\LARGE Análisis de ...
+            
+       	\vspace{3cm}
+		\Large
+        Andrés Calvo Vargas \\
+        Jorge Durán Campos \\
+       	Diego Quirós Artiñano \\ 
+
+       	\vspace{3cm}
+       
+		EIF-412 Investigación de operaciones y sus aplicaciones \\
+       	Profesor Juan Félix Avila Herrera \\
+
+       	\vfill
+    	
+		\today
+	\end{changemargin}
+ \begin{abstract}
+    \blindtext[1]
+\end{abstract}
+\end{titlepage}
+
+\onecolumn
+% Índices
+\pagenumbering{roman}
+    % Contenido
+    \renewcommand{\contentsname}{\large Índice \\ \hrulefill}
+% \tableofcontents
+% \setcounter{tocdepth}{2}
+\newpage
+%     Figuras
+%  \renewcommand{\listfigurename}{\large Índice de fíguras \\ \hrulefill}
+%  \listoffigures
+%  \newpage
+     % Tablas
+%  \renewcommand{\listtablename}{\large Índice de tablas \\ \hrulefill}
+%  \listoftables
+%  \newpage
+% Cuerpo
+\pagenumbering{arabic}
+
+\twocolumn
+% \onehalfspace
+% \section{tempSection}
+% \blindtext[2]
+% \subsection{tempSubSection}
+% \blindtext[3]
+\blinddocument
+\newpage
+\onecolumn
+
+\nocite{temp}
+\nocite{greenwade93}
+\nocite{Griffiths:1492149}
+% \bibliographystyle{apacite} 
+% \bibliography{ref.bib}
+\printbibliography
+
+\end{document}

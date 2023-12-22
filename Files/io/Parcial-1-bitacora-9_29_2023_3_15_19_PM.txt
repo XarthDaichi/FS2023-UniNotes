@@ -1,0 +1,243 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-3:15:19PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Color 2;
+Expr  7*y-2*x < 14,x+7*y < 35,y-x > -11,x>0,y>0 ;
+Color 3;
+Expr  10*x+70*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-3:17:42PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*y-2*x = 14 ;
+Color 3;
+Expr x+7*y = 35 ;
+Color 4;
+Expr y-x = -11 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr  7*y-2*x < 14,x+7*y < 35,y-x > -11,x>0,y>0 ;
+Color 3;
+Expr  10*x+70*y = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-3:35:56PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 1; Expr y =(x^(2)+x)/(x^(4)+1);
+Color 2; Expr y = 2 - abs(x-1)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-3:36:52PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 1; Expr y =(x^(2)+x)/(x^(4)+1);
+Color 2; Expr y = 2 - abs(x-1);
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-3:44:10PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  a=slider([1,5]);
+Color 2; Expr  abs(x-a) + abs(y-2) = a;
+Color 3; Expr y=2*sin(a*x)+a*cos(2*x)-a;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:10:16PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Expr  c=slider([20,70]);
+ Expr  d=slider([20,70]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = 16 ;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < 16,y-2*x > -12,x>0,y>0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:12:17PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Expr  c=slider([0,70]);
+ Expr  d=slider([0,70]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = 16 ;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < 16,y-2*x > -12,x>0,y>0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:12:44PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Expr  c=slider([0,70]);
+ Expr  d=slider([1,70]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = 16 ;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < 16,y-2*x > -12,x>0,y>0 ;
+Color 3; Expr y = -c/d*(x-8)+ 4;
+Color 3;
+Expr  c*x+d*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:14:57PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 16,21]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = K;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < K,y-2*x > -12,x>0,y>0 ;
+Color 3;
+Expr  20*x+20*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:15:46PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 0,70]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = K;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < K,y-2*x > -12,x>0,y>0 ;
+Color 3;
+Expr  20*x+20*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:17:41PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  K=slider([ 6,70]);
+Color 2;
+Expr y-x = 2 ;
+Color 3;
+Expr x+2*y = K;
+Color 4;
+Expr y-2*x = -12 ;
+Color 5;
+Expr x=0 ;
+Color 6;
+Expr y=0 ;
+Color 2;
+Expr y-x < 2,x+2*y < K,y-2*x > -12,x>0,y>0 ;
+Color 3;
+Expr  20*x+20*y = n;
+SliderSteps 50;
+Slider 0 240;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:19:48PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Expr  function(f,x) = (x+sqrt(x-4)+1)/(sin(x)+cos(x)+3);
+Color 2; Expr y= function(f,x) - function(oppartial(x), function(f,x));
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/29/2023-4:24:15PM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2; Expr x^(3)+cos(y)<abs(x^(2)-1);
+Color 3; Expr x^(2)+y^(2)<1;
+
+
+

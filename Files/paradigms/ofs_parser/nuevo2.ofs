@@ -1,0 +1,11 @@
+let foo = x -> true
+
+const trueValues = [* false, n -> true] >> [! 1] && foo(x) * 2 + 1
+
+const something = [* n, n -> 2 * n * n - n * 3 + 666 * goo(666) ]
+
+something >> [! 10] [> n -> console.log(n) ]
+
+let n = 666
+
+let hoo = [* n, n -> n + 1] >> [? n -> n % 2 == 0 || n % 3 == 0] >> [! n + 2]

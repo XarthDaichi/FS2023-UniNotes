@@ -1,0 +1,194 @@
+\documentclass[12pt, article, natbib]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{setspace}
+
+\pagestyle{fancy}
+\fancyhf{Universidad Nacional de Costa Rica}
+\rhead{\thepage}
+\lhead{Ensayo \# 1}
+\rfoot{EIF-402 Bases de Datos II}
+\lfoot{II-2023}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
+\makeatother
+\begin{document}
+
+\begin{titlepage}
+	\includegraphics[width=0.2\textwidth]{../../../Files/logo-UNA blanco.png}      
+   	\begin{changemargin}{4.5cm}{0cm}
+       	\textbf{\Huge Calidad y Seguridad de la información en las tareas de administrador de bases de datos}
+
+       	\vspace{0.2cm}
+       	\LARGE Ensayo \# 1
+            
+       	\vspace{3cm}
+		\Large
+       	Diego Quirós Artiñano \\ 
+
+       	\vspace{3cm}
+       
+		EIF-402 Administración de bases de datos \\
+       	Profesor Johnny Villalobos Murillo \\
+		       	
+       	\vspace{3cm}
+       	\today
+	\end{changemargin}
+\end{titlepage}
+
+\onecolumn
+% Índices
+\pagenumbering{roman}
+    % Contenido
+    \renewcommand{\contentsname}{\large Índice \\ \hrulefill}
+% \tableofcontents
+% \setcounter{tocdepth}{2}
+\newpage
+%     Figuras
+%  \renewcommand{\listfigurename}{\large Índice de fíguras \\ \hrulefill}
+%  \listoffigures
+%  \newpage
+     % Tablas
+%  \renewcommand{\listtablename}{\large Índice de tablas \\ \hrulefill}
+%  \listoftables
+%  \newpage
+% Cuerpo
+\pagenumbering{arabic}
+
+\twocolumn
+\onehalfspace
+\section{Introducción}
+
+En la era digital actual, la administración de bases de datos se ha convertido en un pilar fundamental para el almacenamiento, acceso y gestión efectiva de la información en diversas organizaciones y sectores. Sin embargo, la calidad y seguridad de la información en este entorno se han vuelto temas de vital importancia. La calidad de la información se refiere a la exactitud, consistencia, relevancia, confiabilidad de los datos almacenados en una base de datos, documentación y seguimiento de normas, mientras que la seguridad de la información abarca las medidas y estrategias implementadas para proteger dichos datos contra accesos no autorizados, pérdidas o modificaciones indeseadas.
+
+En este ensayo, exploraremos los conceptos básicos de la administración de bases de datos, al igual que sus beneficios y problemas. Comenzaremos analizando lo que es la administración de bases de datos, su función en la empresa, los beneficios que trae, los problemas que genera cuando no se maneja de manera adecuada y como un administrador de bases de datos cabe dentro de este ámbito. en qué consiste la calidad de la información, los beneficios que conlleva contar con datos confiables y precisos, pero también los problemas que pueden surgir si no se aborda adecuadamente. A lo largo del ensayo, se presentarán estrategias para evitar los problemas de al administrar bases de datos y como esto va relacionado con la calidad y la seguridad de la información.
+
+Asimismo, profundizaremos el tema de la calidad de las bases de datos. Se abordará qué es calidad, los multiples beneficios que esto otroga a las organizaciones y los posibles riesgos que genera si no se gestiona de manera correcta. Se ejemplificará las prácticas para la adecuada gestión de la calidad. Consecuentemente, se verá como se relaciona con la administración de bases de datos.
+
+Por último, se explorará en el tema de la seguridad de la información en el contexto de las bases de datos. Presentaremos qué es la seguridad de la información, los diversos beneficios que aporta a las organizaciones y los riesgos potenciales a los que se enfrentan si no se protegen adecuadamente los datos sensibles. Se examinarán las posibles amenazas que pueden afectar la seguridad de la base de datos y se propondrán medidas y mejores prácticas para salvaguardar la integridad, confidencialidad y disponibilidad de la información almacenada.
+
+En conclusión, la calidad y seguridad de la información en la administración de bases de datos son aspectos cruciales para el éxito y confiabilidad de cualquier organización en la actualidad. Al abordar estos temas de manera efectiva, las empresas pueden aprovechar al máximo los beneficios de contar con datos precisos y seguros, mientras evitan los problemas y riesgos asociados a una mala gestión de la información. La sinergia entre calidad, seguridad y administración de bases de datos se convierte en un desafío constante que debe ser enfrentado con la implementación de estrategias y las mejores prácticas del ámbito tecnológico.
+
+% \newpage
+% \twocolumn
+\section{Administración de bases de datos}
+En las empresas de la actualidad es de suma importancia tene una base de datos para almacenar la información que utilicen. Para comenzar el análisis de la importancia de la calidad y seguridad como administrador de bases de datos, hay que definir algunos conceptos básicos. Según Amazon \cite{amazonbasesdedatos} la administración de datos es la recopilación, uso y eliminación de datos para una empresa y según Google Learning \cite{googleadmindatos} se trata en todas las tareas y procesos que se necesitan para asegurar la integridad, confidencialidad y disponibilidad de los datos durante su ciclo de vida. Los dos mencionan el ciclo de vida de los datos, el tiempo de vigencia: cuando se recolectan, como se utilizan y finalmente después de un periodo eliminarlos de la base de datos. Este periodo puede variar dependiendo de la empresa y/o política gubernamental, por ejemplo Costa Rica tiene un tiempo de vigencia de datos de cuatro años.
+
+Utilizando estas definiciones entonces uno puede comprender cual es la importancia de tener en una organización el correcto manejo de datos. Es además importante en la actualidad tener datos de calidad para que las empresas de todo tipo puedan hacer la correcta toma de decisiones. No solo que la decisión sea la correcta sino también en el momento oportuno. Este motivo impulsa que la empresa tenga los datos actualizados. Además influye en la constante mejora de los procesos de recolección de datos para el fin de mantener la calidad de lo que obtiene. 
+
+Tener una buena administración de datos además mejora los controles de costos. Por la eficacia de varios procesos por la información que provee tener un buen manejo de datos, ayuda a reducir los costos. Además ayuda ver en cuales áreas necesitan mejoras y otras optimizaciones que se pueden encontrar.
+
+La buena administración y control de los procesos además pueden ayudar a cumplir con normativas. El tener bien documentado los pasos para recolectar, utilizar y eliminar los datos ayuda a mantenerse acuerdo con normativas como la ISO 9001 \cite{ISO9001} y la 27002 \cite{ISO27002}.
+
+Al aumentar eficacia la confianza de los clientes y los proveedores incrementa. El cumplir con normativas y auditorias se puede expresar la seriedad de la empresa antes los stakeholders. Esta confianza a su vez puede atraer más clientes y proveedores que implica mayor ingreso para la empresa.
+
+Al estar actualizado y tomando las decisiones correctas, se administran con mayor facilidad los riesgos. En general el tener los datos correctos puede ayudar a ver que áreas necesitan mejora para mitigar riesgos, pero en las bases de datos esto implica administrar los riesgos de integridad, confidencialidad y disponibilidad. La integridad se puede guardar teniendo los datos correctos en las bases que implica un buen ciclo de vida. La confidencialidad y disponibilidad se puede mitigar al gestionar los sistemas y protocolos de seguridad que tiene la empresa, invirtiendo en estos sistemas en los momentos oportunos como previamente mencionado.
+
+Finalmente, ente mejor administrado la base de datos, más personas pueden acceder a los datos que les corresponde. Esto se puede administrando los permisos para visualizar ciertas tablas o datos específicos. Esto para fomentar la eficiencia dentro de la organización sin que afecte de forma negativa la confidencialidad de datos.
+
+El problema más grande de la administración de datos es que si se hace de forma errónea, puede generar el efecto inverso y adverso de todos los beneficios mencionados anteriormente. Algunas maneras en las que se pueden ver la administración equivocada serían:
+\begin{itemize}
+	\item Un error en el control de accesos. Que personas tengan permisos que no deberían dejando que accedan a datos que no les corresponde.
+	\item Una arquitectura de datos que esté mal definida. Si los datos están mal ubicados dentro de la arquitectura o es una arquitectura ambigua.
+	\item Una incoherencia de datos generada. Esto puede llevar a error en la toma de decisiones. Esto puede ser provocado por la arquitectura equivocada.
+\end{itemize}
+
+Según Amazon \cite{amazonbasesdedatos} algunas practicas recomendadas son: la colaboración en equipo, la automatización y la computación en la nube. El trabajo en equipo se puede interpretar como los directivos y los equipos técnicos teniendo una comunicación efectiva para que se cumplan todos los requisitos de datos que tiene la organización. La automatización se puede apreciar a que en la recopilación de datos masivos se almacenen correctamente donde deberían estar según la arquitectura definida, reduciendo la incoherencias de datos y los errores en el sistema. 
+
+Además hay que definir el trabajo de un administrador de bases de datos (DBA). Según la Universidad Autónoma del estado de Hidalgo \cite{defdba}, un DBA es la <<persona encargada de administrar las tecnologías de la información y la comunicación, tal así que termina siendo responsable de los aspectos técnicos, tecnológicos, científicos, inteligencia de negocios y legales de las bases de datos>>. Esta definición deja apreciar la labor de un administrador de bases de datos, y como los aspectos de reglamentos, normas, técnicos y de organización como la calidad y la seguridad son para cualquier empresa, son de suma importancia. En especial en los tiempos modernos donde el <<Big Data>> está generando mucha demanda para la administración de bases de datos.
+
+En general ya se ha mencionado a pinceladas como afecta la calidad y la seguridad de la información en una base de datos. Además porque un DBA lo debería tener dentro de sus tareas para administrar correctamente las bases de datos bajo su supervisión. 
+
+\section{Calidad en base de datos}
+
+A pesar de que lo primero que se interprete al escuchar de la calidad de una base de datos es la calidad de sus datos, no es todo lo que abarca el tema. Para los que no estén enterados la calidad de información hace referencia al hecho de que los datos que se recolectan tengan: exactitud, integridad, actualización, relevancia, coherencia, confiabilidad, presentación apropiada y accesibilidad (PowerData\cite{powerdatacalidad}). La calidad de información es gran parte de lo que es calidad y tiene sus propios beneficios y problemas.
+
+Como beneficio se puede apreciar por ejemplo la confianza de los usuarios. Esto se puede lograr alcanzar por la consistencia de reportar los resultados de la recolección de datos. Otra manera en la que esto se puede alcanzar es a través de la correcta toma de decisiones que provee tener los datos correctos, como previamente mencionado. Al igual que la administración de las bases de datos el manejo erróneo de la calidad de información puede generar las situaciones opuestas a lo que se busca.
+
+Gran parte de los beneficios mencionados cuando se comentaba sobre la administración de bases de datos provienen de tener una calidad de información. Esto se da a que muchos de los beneficios que se mencionaron se basaban en la información que se podía extraer de los datos en una base de datos. Si no calidad de datos entonces no se puede extraer la información correcta. Por lo cuál es una parte crucial de la administración de bases de datos.
+
+Algunas prácticas para la validación de la calidad de datos son: la actualización, normalización, y de-duplicación (PowerData \cite{powerdatacalidad} y \cite{deydedatacentric}). La actualización se refiere al hecho de constantemente estar buscando buscando información más reciente y relevante a los requerimientos. Por ejemplo, un informático se tiene que constantemente capacitar de tal manera poder estar al dia con las nuevas tecnologías y prácticas, de igual manera pasa con los datos en una base de datos. La normalización de los datos se refiere a reducir redundancias. Un ejemplo en una base de datos es un libro con uno o varios autores, los autores estarían en otra tabla dentro de la base de datos por aparte del libro para normalizar los datos. Finalmente, la de-duplicación se refiere a quitar repeticiones en la información dado a que esto puede generar reportes incorrectos. Por ejemplo, si aparece varias veces que Luis le gusta la plataforma de Netflix, en el reporte saldrá Netflix más popular de lo que en realidad los datos deberían expresar. Las soluciones que hacen esto son procesos de <<limpieza, perfilado y data matching>> \cite{powerdatacalidad}, que además con la automatización reduce el tiempo de validación de datos.
+
+Como ayudar para medir la calidad de datos se puede llevar una gestión de la calidad de datos donde se miden cualitativamente y cuantitativamente. Los datos se pueden evaluar cualitativamente a través de las reseñas de los usuarios, mientras que las medidas cuantitativas son, según PowerData:
+\begin {itemize}
+	\item Completitud: cuantos de todos los atributos se encuentran presentes.
+	\item Validez: el ajuste de valor de datos a su conjunto de valores.
+	\item Unicidad: que tan único es un dato.
+	\item Integridad: la conformidad con las reglas de datos establecidas por la empresa y las normativas nacionales e internacionales.
+	\item Precisión: La medida de cuando representa la verdad sobre un objeto del mundo real o ajustado por fuentes establecidas.
+	\item Coherencia: que tanto una pieza de datos contiene el mismo valor a través de múltiples conjuntos de datos.
+	\item Disponibilidad: que tan disponibles están los datos cuando se necesiten.
+	\item Representación: que tan legibles son los datos, que formato siguen, patrón y utilidad que el dato ofrece
+\end{itemize}
+
+Retomando el tema general de la calidad, la calidad de información es solo un aspecto de lo que se busca en una administración de bases de datos. Además se busca establecer procedimientos y correctamente documentar esto. Estos estándares es algo que toda organización debería gestionar, crear algo que se llama un manual de calidad. Todos estos métodos de planificación, implementación y validación deberán estar establecidos según la ISO 9001 \cite{ISO9001}.
+
+Para la gestión de calidad incluye aspectos de problemas de los datos situados en las bases de datos al igual que:
+\begin{itemize}
+	\item La gobernanza establecida
+	\item Identificando las funciones y responsabilidades dentro de la organización
+	\item La creación de expectativas de calidad, apoyados también por estrategias empresariales
+	\item Implementando una plataforma técnica que facilite las prácticas empresariales, esto puede incluir documentaciones como el manual de calidad
+	\item La cooperación entre las áreas de negocio y de IT
+\end{itemize}
+
+Las áreas en las que gestión de calidad además puede influenciar son:
+\begin{itemize}
+	\item Arquitectura de los sistemas y las bases de datos.
+	\item Sistemas de la información que utilicen los datos de la base de datos.
+	\item Establecimientos técnicos, refiriéndose a los procedimientos y calidades que se establecen en el manual de calidad.
+	\item La base de datos.
+\end{itemize}
+
+Como se puede apreciar la calidad está íntegramente relacionada con la administración de bases de datos y no se puede hablar muy a profundidad de uno sin hablar de la otra. La calidad sirve para asegurar los beneficios que la buena administración de bases de datos pueden ofrecer. Al ser mal manejada, puede consecuentemente llevar al efecto opuesto a lo que la empresa está buscando.
+
+\section{Seguridad de la información de la base de datos}
+
+La seguridad de la información o la seguridad en una base de datos es un poco más sencillo de definir que la calidad. La seguridad termina siendo la mitigación de los riesgos que se presentan en la administración de bases de datos. Estos riesgos para recalcar son: integridad, confidencialidad y disponibilidad. Esto se obtiene en conjunto con herramientas, medidas y controles diseñados para establecer y mantener la mitigación de esos riesgos. Para esto se intenta mantener y proteger lo siguiente, según IBM \cite{ibmseguridad}: los datos de la base de datos, el sistema de gestión de bases de datos (SGBD), cualquier aplicación asociada a la base de datos, el servidor físico y/o virtual donde se encuentra la base de datos y el hardware en los que se mantienen, y la infraestructura informática y/o red utilizada para acceder a la base de datos. En lo general se basa en la idea de la regla de Anderson: entre más accesible y utilizable más vulnerable, entre más difícil acceder y utilizar, más seguro.
+
+La seguridad es importante por los aspectos de: propiedad intelectual, daño a la reputación de la marca, continuidad del negocio, multas o sanciones y costes de reparación de infracciones y notificación a los clientes. Las propiedades intelectuales en especial en la actualidad donde hay tantísima propiedad en el internet es importante asegurar. Cualquier organización quiere mantener su reputación y si se invalida o pierden datos pega fuerte a la reputación. Se necesita resolver las sanciones o infracciones por temas de reputación y para poder continuar el negocio. Además la empresa tiene que tomar en cuenta el coste de comunicar la infracción a los clientes.
+
+Hay varias amenazas que tiene la seguridad, una de ellas son las amenazas internas. Un usuario interno malicioso, un usuario interno negligente o un infiltrado, ese último puede ocurrir por estrategias de phishing u otros para obtener acceso a la base de datos. En general todas las amenazas internas tiene un elemento en común, el cuál es: el error humano, que según IBM es casi el 50\% de las razones por las infracciones.
+
+El otro lado de la moneda son la amenazas externas que incluyen ya los <<hackers>>. Estos tienen varios métodos: explotando vulnerabilidades de software de base de datos, ataques por inyección SQL/NoSQL, desbordamiento de almacenamiento intermedio, programas maliciosos, ataques a las copias de seguridad, ataques de denegación de servicio (DoS/DDos). Las amenazas se ven además contribuidas por: los volúmenes recientes de datos, la dispersión de infraestructuras (infraestructuras separadas por la nube), requisitos normativos más estrictos y escasez de conocimientos en ciberseguridad.
+
+Las diferentes prácticas de seguridad son, según Microsoft e IBM: 
+\begin{itemize}
+	\item Seguridad de la red: tener firewalls, seguridad en los puertos, entre otros controles.
+	\item Autenticación de acceso: autenticar el acceso (login), sirve mucho para identificar que la persona que está ingresando sea la correcta. Además considerar el control de acceso para limitar la información disponible a usuario que no la necesitan.
+	\item Protección contra amenazas: auditorías como se especifica en las normativas de ISO, constante verificación de los protocolos de seguridad es esencial. El monitoreo de actividades anómalas o detección de amenazas también ayuda para encontrar un ataque en mientras ocurre e intentar de detenerlo.
+	\item Protección de información: el cifrado de los datos para que la información no sea fácilmente accedida por gente que no deberían tener acceso, la recuperación y copias de una base de datos es importante por si acaso un ataque poder volver a levantar de ser el caso necesario, seguridad física (limitar acceso al servidor y sus componentes)
+\end{itemize}
+
+Todas estas prácticas tienen como final: administrar, detectar, prevenir y prevenir las amenazas, utilizando data e información de usuario.
+
+Además las mitigación se puede complementar de varios controles y políticas, sea de normativas como la 27002 o propios de la empresa. Oracle \cite{oracleseguridad} e IBM recomiendan que haya controles: de evaluación, descriptivos, preventivos, administrativos, detección específicos de datos, específicos de usuario.
+
+Como apreciamos otra vez, la seguridad de la información es un aspecto de suma importancia en la administración de bases de datos. No tanto directamente afectando los beneficios como la calidad, pero para mitigar los riesgos que causan el efecto contrario. Para esto se requiere que un administrador de bases de datos tenga todos estos conceptos mencionados, implementados y mantenidos para tener una seguridad de bases de datos correcta. Además se puede ver como no solo está relacionada con las bases de datos sino con la calidad como tal, todos los estándares que pueden ser utilizados como prácticas de seguridad son estándares que la organización debería establecer en conjunto con las gestiones de calidad.
+
+\section{Conclusión}
+
+Finalizando, la administración de bases de datos, la calidad y la seguridad son temas importantes y extensos que se deberían estudiar a profundidad. En especial un administrador de bases de datos necesita tener toda esta información y más a profundidad para realizar sus tareas apropiadamente. 
+
+El administrador de bases de datos tiene que tener en cuenta las especificaciones de las calidades en su ámbito, país, región, empresa, departamento, etc., para podre correctamente gestionar y seguir mejorando las medidas de calidad. A su vez el tener las medidas de seguridad establecidas, pueden ayudar cuando en algún momento por error humano o por ataque externo ocurra algo. El administrador de bases de datos entonces deber tener en cuanta aspectos internos de las empresas al igual que los externos. Para esto se debería estar en constante auditorías/mejoras de los sistemas de calidad y seguridad, de tal manera que no quede obsoleto.
+
+En conclusión la calidad de las bases de datos y las seguridad de la información de las bases de datos son dos temas que están intrínsecamente relacionados. Son muchas normativas y aspectos que tomar en cuenta y que se complementan mutuamente, pero pueden generar beneficios significativos para las empresas.
+
+\newpage
+\onecolumn
+
+\nocite{chatgpt}
+\bibliographystyle{ieeetr} 
+\bibliography{ref.bib}
+
+\end{document}

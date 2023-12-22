@@ -1,0 +1,21 @@
+{
+  "id": "51902438-297b-4c30-a0c3-3ec42adc6d04",
+  "version": "2.0",
+  "name": "testUNA",
+  "url": "https://www.novacinemas.cr/",
+  "tests": [{
+    "id": "08bb4123-a0f4-4fcb-bfa0-cfe40dd8aaae",
+    "name": "Cancelar Orden",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "57aacce9-b50c-423f-a4e6-5c52675b3335",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08bb4123-a0f4-4fcb-bfa0-cfe40dd8aaae"]
+  }],
+  "urls": [],
+  "plugins": []
+}

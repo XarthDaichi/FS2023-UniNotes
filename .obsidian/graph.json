@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:paradigms",
+      "color": {
+        "a": 1,
+        "rgb": 16256363
+      }
+    },
+    {
+      "query": "tag:databases",
+      "color": {
+        "a": 1,
+        "rgb": 14446345
+      }
+    },
+    {
+      "query": "tag:leadership",
+      "color": {
+        "a": 1,
+        "rgb": 8445941
+      }
+    },
+    {
+      "query": "tag:inge",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:homework",
+      "color": {
+        "a": 1,
+        "rgb": 8618026
+      }
+    },
+    {
+      "query": "tag:io",
+      "color": {
+        "a": 1,
+        "rgb": 591716
+      }
+    },
+    {
+      "query": "tag:#evaluation  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711888
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.07738935044791485,
+  "close": true
+}

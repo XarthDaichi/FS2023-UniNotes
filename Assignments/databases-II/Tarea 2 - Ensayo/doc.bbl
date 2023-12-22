@@ -1,0 +1,48 @@
+\begin{thebibliography}{10}
+
+\bibitem{amazonbasesdedatos}
+``{{\textquestiondown}Qu{\ifmmode\acute{e}\else\'{e}\fi} es la
+  administraci{\ifmmode\acute{o}\else\'{o}\fi}n de datos? -
+  Explicaci{\ifmmode\acute{o}\else\'{o}\fi}n de la
+  administraci{\ifmmode\acute{o}\else\'{o}\fi}n de datos en la nube - AWS},''
+  Aug. 2023.
+
+\bibitem{googleadmindatos}
+``{{\textquestiondown}Qu{\ifmmode\acute{e}\else\'{e}\fi} es la
+  administraci{\ifmmode\acute{o}\else\'{o}\fi}n de datos? {$\vert$} Google
+  Cloud {$\vert$} Google Cloud},'' Nov. 2022.
+
+\bibitem{ISO9001}
+``{Quality management systems — Requirements},'' standard, International
+  Organization for Standarization, Geneva, CH, 2000.
+
+\bibitem{ISO27002}
+``{Information technology — Security techniques — Code of practice for
+  information security management},'' standard, International Organization for
+  Standarization, Geneva, CH, 06 2005.
+
+\bibitem{defdba}
+``{1.2. Definici{\ifmmode\acute{o}\else\'{o}\fi}n de Administrador de Base de
+  Datos (DBA)},'' May 2014.
+
+\bibitem{powerdatacalidad}
+``{Calidad de Datos. C{\ifmmode\acute{o}\else\'{o}\fi}mo impulsar tu negocio
+  con los datos.},'' Aug. 2023.
+
+\bibitem{deydedatacentric}
+V.~P{\ifmmode\acute{e}\else\'{e}\fi}rez, ``{La importancia de la calidad de
+  datos y c{\ifmmode\acute{o}\else\'{o}\fi}mo aprovecharlos - DEYDE},'' {\em
+  DEYDE}, June 2023.
+
+\bibitem{ibmseguridad}
+``{Seguridad de las bases de datos: gu{\ifmmode\acute{\imath}\else\'{\i}\fi}a
+  b{\ifmmode\acute{a}\else\'{a}\fi}sica {$\vert$} IBM},'' Aug. 2023.
+
+\bibitem{oracleseguridad}
+``{Mejores pr{\ifmmode\acute{a}\else\'{a}\fi}cticas de seguridad de bases de
+  datos},'' Aug. 2023.
+
+\bibitem{chatgpt}
+``Chatgpt,'' 08 2023.
+
+\end{thebibliography}

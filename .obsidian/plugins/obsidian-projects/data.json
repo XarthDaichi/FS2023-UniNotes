@@ -1,0 +1,182 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templates/homework.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Assignments",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "turned-in"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#80ffb0",
+                "condition": {
+                  "field": "turned-in",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Started"
+                }
+              },
+              {
+                "color": "#f50f26",
+                "condition": {
+                  "field": "turned-in",
+                  "operator": "is-not-checked",
+                  "enabled": true,
+                  "value": ""
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "45520c74-e8e1-45da-9bde-f1d3eb97c81a",
+          "name": "Homework Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "f35a0b56-2309-4a06-bace-190e36808016",
+      "name": "Assignment Calendar"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templates/evaluation.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Evaluaciones",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#db29ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Test"
+                }
+              },
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Quiz"
+                }
+              },
+              {
+                "color": "#00ff6e",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Presentation"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e2a4aebe-9b4f-43d3-a4e9-a9a3a5ccb1d7",
+          "name": "Evaluation Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "923a629a-daba-4f8c-b318-5bff7bba5bbc",
+      "name": "Evaluation"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templates/homework.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#homework"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8c6935b5-1e8c-4a41-a17b-eb3afaa1a5c0",
+          "name": "Everything",
+          "type": "calendar"
+        }
+      ],
+      "id": "98561c06-fc30-44b2-9a41-a07be688ec86",
+      "name": "Everything"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

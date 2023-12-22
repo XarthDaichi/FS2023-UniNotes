@@ -1,0 +1,94 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/17/2023-9:11:36-AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+()/()
+Color 2;
+Expr  7*x -y < 3, 6*y -x < 10, 3*x + 4*y < 9,x > 0,y > 0 ;
+Color 3;
+Expr  12*y-3*x = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/17/2023-9:13:08-AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*x - 2*y = 3 ;
+Color 3;
+Expr  6*y -x = 10 ;
+Color 4;
+Expr  3*x + 4*y = 9 ;
+Color 5;
+Expr  3*x + 3*y = 3 ;
+Color 6;
+Expr x = 0 ;
+Color 7;
+Expr y = 0 ;
+Color 2;
+Expr  7*x - 2*y < 3, 6*y -x < 10, 3*x + 4*y < 9, 3*x + 3*y > 3,x > 0,y > 0 ;
+Color 3;
+Expr  12*y-3*x = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/17/2023-9:14:12-AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Color 2;
+Expr  7*x - 2*y = 3 ;
+Color 3;
+Expr  6*y - 3*x = 10 ;
+Color 4;
+Expr  3*x + 4*y = 9 ;
+Color 5;
+Expr  3*x + 3*y = 3 ;
+Color 6;
+Expr x = 0 ;
+Color 7;
+Expr y = 0 ;
+Color 2;
+Expr  7*x - 2*y < 3, 6*y - 3*x < 10, 3*x + 4*y < 9, 3*x + 3*y > 3,x > 0,y > 0 ;
+Color 3;
+Expr  12*y-3*x = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+9/17/2023-9:15:37-AM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Color 2;
+Expr  7*x -y = 3 ;
+Color 3;
+Expr  6*y - 3*x = 10 ;
+Color 4;
+Expr  3*x + 4*y = 9 ;
+Color 5;
+Expr  3*x + 3*y = 3 ;
+Color 6;
+Expr x = 0 ;
+Color 7;
+Expr y = 0 ;
+Color 2;
+Expr  7*x -y < 3, 6*y - 3*x < 10, 3*x + 4*y < 9, 3*x + 3*y > 3,x > 0,y > 0 ;
+Color 3;
+Expr  12*y-3*x = n;
+SliderSteps 50;
+Slider 0 12.6667;
+SliderOneDirection 0;
+SliderMoving 0;
+

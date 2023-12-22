@@ -1,0 +1,24 @@
+GraphingCalculator 4;
+Window 42 0 738 1366;
+PaneDivider 159;
+BackgroundType 0;
+BackgroundColor 255 255 255;
+StackPanes 1;
+SliderControlValue 1;
+3D.View 0.9870993081294752 0.05799550122242141 -0.1492363151307244 -0.02963431774774453 0.9821646682443781 0.1856727543010757 0.1573428203873716 -0.1788549309247429 0.9712127215919554;
+3D.Speed 0;
+3D.Rotation 1 0 0 0 1 0 0 0 1;
+Grain 0.01;
+Color 2; Expr  vector(0.5, 0.5, 0.5);
+
+V 0 1;
+U 0 1;
+Opacity 0.5;
+Color 1; Expr  vector(x,y,z)= vector(0+ u*1,0, 0+ v*1);
+Color 1; Expr  vector(x,y,z)= vector(0,0+ u*1, 0+ v*1);
+Color 1; Expr  vector(x,y,z)= vector(0+ v*1,0+ u*1, 0);
+Color 1; Expr  vector(x,y,z)= vector(0+ v*1,0+ u*1, 1);
+Color 1; Expr  vector(x,y,z)= vector(0+ u*1,1, 0+ v*1);
+Color 1; Expr  vector(x,y,z)= vector(1,0+ u*1, 0+ v*1);
+Color 3; Expr  vector(x,y,z)=vector(u*1 - (-1 + u)*(v*(0 -0.5) + 0.5), u*0 - (-1 + u)* (v*(0 -0) + 0), u*1 - (-1 + u)* (v*(1 -1.25) + 1.25));
+Color 4; Expr  vector(x,y,z)=vector(u*1 - (-1 + u)*(v*(0 -0.5) + 0.5), u*1 - (-1 + u)* (v*(1 -1) + 1), u*1 - (-1 + u)* (v*(1 -1.25) + 1.25));
