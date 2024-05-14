@@ -18,86 +18,110 @@
             }
           },
           {
-            "id": "5f013830254cc47d",
+            "id": "09c5506ffa251781",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evaluaciones/Examen 2 Paradigmas.md",
+                "file": "AI Outline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1d68732526d7081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gini.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e5b97fc9ab380df",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/CICLO de Training 2024-04-22 13.24.34.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "c0fdf92e4e860c1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arbol de Decisión.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47a15b47b953b5ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matriz de Confusión.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b5b432cce2cd1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ejercicio de Clasificadores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "526cedfa1182677c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontera de Decisión.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4470f271b5332fb6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Matriz de Confusión 2024-03-18 14.22.54.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "453a6fe954d4e2ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clasificador Binario.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "a18af07ac8293d04",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "43f1f57649925ace",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 13b.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e835aec4989f37c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 14a.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8efe8dd30f2a8407",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 14b.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24fdf69746f2ca14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 15a.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "538b6bff28ea475a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 15b.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,6 +133,7 @@
       {
         "id": "99eeabc4afe08270",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "ed91c6e642d1836d",
@@ -123,6 +148,7 @@
       {
         "id": "2768d56c7c70fccf",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "663971b7b6174d25",
@@ -140,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meta",
+                "query": "idiota",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +204,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignments/Autoestudio Semana 15b.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +220,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignments/Autoestudio Semana 15b.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,9 +241,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Assignments/Autoestudio Semana 15b.md"
-              }
+              "state": {}
             }
           },
           {
@@ -244,7 +266,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -265,15 +289,31 @@
             }
           },
           {
-            "id": "b5a1ac084e25cf94",
+            "id": "b7538f1de4d6b8bc",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "44c1619be3fa5239",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "612e5bad38fa3e10",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -289,62 +329,64 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-5e-statblocks:Open Creature Pane": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "open-vscode:VSCode": false
+      "open-vscode:VSCode": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-5e-statblocks:Open Creature Pane": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "538b6bff28ea475a",
+  "active": "ba1d2113cb98dcc3",
   "lastOpenFiles": [
-    "Files/paradigms/ofs_parser/test.js",
-    "Files/paradigms/ofs_parser/ofs_lexer_final.pl",
-    "Assignments/Autoestudio Semana 15b.md",
-    "Assignments/Autoestudio Semana 15a.md",
-    "Assignments/Autoestudio Semana 14b.md",
-    "Assignments/Autoestudio Semana 14a.md",
-    "Assignments/Autoestudio Semana 13b.md",
-    "Evaluaciones/Examen 2 Paradigmas.md",
-    "Files/paradigms/prolog/split.pl",
-    "Files/paradigms/prolog/split",
-    "Assignments/Autoestudio Semana 13a.md",
-    "Assignments/Autoestudio Semana 12a.md",
-    "Files/paradigms/prolog/palindromo.pl",
-    "Files/paradigms/prolog/super_fibo.pl",
-    "Files/paradigms/prolog/testFindAll.pl",
-    "Files/paradigms/prolog/testFindAll",
-    "Assignments/paradigms/Autoestudio Semana 11a.md",
-    "Assignments/paradigms/Autoestudio Semana 10b.md",
-    "Files/paradigms/prolog/diccionarios.pl",
-    "Listas (Prolog).md",
+    "Definiciónes Imbécil, Idiota, Estúpido.md",
+    "Regresión Lineal.md",
+    "Excalidraw/CICLO de Training 2024-04-22 13.24.34.excalidraw.md",
+    "Gini.md",
+    "Single Instruction Multiple Data.md",
+    "CICLO de Training.md",
+    "CART.md",
+    "PCA.md",
+    "PGA.md",
+    "PPS.md",
+    "PPS Outline.md",
+    "Prolog.md",
+    "Proyecto.md",
+    "Recursión.md",
+    "Resolución del Binding.md",
+    "Excalidraw/Regresión Lineal 2024-03-21 14.15.50.excalidraw.md",
+    "AI Outline.md",
+    "Excalidraw/PCA 2024-04-22 13.47.49.excalidraw.md",
+    "K-fold cross train.md",
+    "Excalidraw/K-fold cross train 2024-04-22 13.34.28.excalidraw.md",
+    "Arbol de Decisión.md",
+    "Matriz de Confusión.md",
+    "Ejercicio de Clasificadores.md",
+    "Frontera de Decisión.md",
+    "Excalidraw/Matriz de Confusión 2024-03-18 14.22.54.excalidraw.md",
+    "Clasificador Binario.md",
+    "Pasted image 20240318140219.png",
+    "Files/inge/Frank Tsui, Orlando Karam, Barbara Bernal_4thEd(2016).pdf",
+    "Assignments/mobile",
+    "Assignments/invest/Tema 1 parte 1.pdf",
+    "Assignments/invest/Programa Metodos Investigacion Cientifica.pdf",
+    "Assignments/invest",
+    "Untitled",
+    "Assignments/AI",
+    "DnD/PCs/g4brielvegaf_118009558.pdf",
+    "Pasted image 20240204190134.png",
+    "Pasted image 20240204190048.png",
+    "Pasted image 20240204175002.png",
+    "Pasted image 20240204174950.png",
+    "Pasted image 20240204174934.png",
+    "Pasted image 20240204174722.png",
+    "Pasted image 20240204165843.png",
+    "DnD/BattleLogs",
+    "DnD/PCs/Fafa63283_118066378.pdf",
     "Pasted image 20231119212200.png",
-    "Pasted image 20231119212142.png",
-    "Pasted image 20231119212126.png",
-    "Pasted image 20231119212118.png",
-    "Pasted image 20231119212104.png",
-    "Pasted image 20231119212019.png",
-    "Iterator.md",
-    "Assignments/Autoestudio Semana 16a.md",
-    "Evaluaciones/Examen 1 Paradigmas.md",
-    "Evaluaciones/OFS 2.0.md",
-    "OFS.md",
-    "Files/paradigms/ofs_parser/autoestudio_16a.pl",
-    "Files/paradigms/ofs_parser/ofs_parser_arithmatic.pl",
-    "Excalidraw/Programación Dinámica 2023-11-11 16.04.57.excalidraw.md",
-    "Programación Dinámica.md",
-    "Assignments/databases-II/Tarea Script RMAN.md",
-    "Excalidraw/Programación Dinámica 2023-11-11 15.54.41.excalidraw.md",
-    "Excalidraw/Programación Dinámica 2023-11-11 15.50.40.excalidraw.md",
-    "Excalidraw/Programación Dinámica 2023-11-11 15.39.40.excalidraw.md",
-    "Números Poligonales.md",
-    "Excalidraw/Números Poligonales 2023-11-11 15.24.38.excalidraw.md",
-    "Excalidraw/Programación Dinámica 2023-11-11 15.14.16.excalidraw.md",
-    "Pasted image 20231109184728.png",
-    "Pasted image 20231109184720.png",
-    "Pasted image 20231109184703.png",
-    "Pasted image 20231109184646.png"
+    "Pasted image 20231119212142.png"
   ]
 }

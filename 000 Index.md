@@ -2,7 +2,7 @@
 Welcome your Index. This is homebase. Check it out. Click the links. Get familiar with the pages. Then add some of your own notes. Link your notes to the Index or to a Map of Contents. If that works, start personalizing the categories to suit your needs. Or return to the philosophy and practice of IMF frameworks: [[IMF START]].
 
 ### Index Categories [^1]
-000s - [[000 Index|The Index]], [[005 Active MOC| Active Notes]], and the following Maps of Content (MOCs): [[School MOC]] [[Tutoring MOC]]
+000s - [[000 Index|The Index]], [[005 Active MOC| Active Notes]], and the following Maps of Content (MOCs): [[School MOC]] [[Tutoring MOC]] [[D&D MOC]]
 010s - [[010 Mind MOC| Mind]]-related health, wellness, training, and exercise.
 020s - [[020 Body MOC|Body]]-related health, wellness, training, and exercise.
 030s - [[030 People MAP|People]], [[035 Places MOC|Places]]

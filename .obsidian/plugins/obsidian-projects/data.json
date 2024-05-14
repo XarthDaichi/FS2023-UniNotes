@@ -171,6 +171,7 @@
       "name": "Everything"
     }
   ],
+  "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,
     "frontmatter": {
